@@ -1,110 +1,93 @@
-/* Correct Google Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
     background-color: lightcyan;
     font-family: "Roboto", sans-serif;
+    margin: 0;
+    color: white; 
 }
 
-/* Header Styling */
-header{
+header {
     width: 960px;
-    background-color: #41AADE;
+    background-color: lightskyblue;
     padding: 20px; 
     border: 5px solid teal;
     margin: 0 auto 10px auto;
     text-align: center;
-    font-weight: 500;
 }
 
-main{
+h1 {
+    font-weight: 100;
+    font-style: italic;
+    font-size: 40px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: white; 
+    transition: color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    color: blue; 
+}
+
+main {
     width: 960px;
-    background-color: #41AADE;
+    background-color: lightskyblue;
     padding: 20px;
     border-left: 5px dotted teal;
     border-right: 5px dotted teal;
     margin: 0 auto;
 }
 
-footer{
-    width: 960px;
-    background-color: paleturquoise; 
-    padding: 20px;
-    margin: 0 auto;
-}
-
-/* Styled Headings */
-h1 {
-    text-align: center;
-    font-weight: 100;
-    font-style: italic;
-    font-size: 40px; /* fixed */
-}
-
 h2 {
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     text-transform: capitalize; 
 }
 
-/* List Styling */
-ul {
-    list-style: square;
+main ul, main ol {
+    color: white; 
 }
-ul li {
-    color: blue; 
-}
-li {
+
+main li {
     text-decoration: underline;
 }
 
-/* Link Styling */
-a {
-    text-decoration: none;
+main ul li a {
+    color: white; 
 }
-a:hover {
+
+main ul li a:hover {
     color: blue;
 }
 
-/* Gallery Styling */
 .imageGallery { 
     width: 200px;
-    display: inline-block;
     margin: 10px;
-    border-radius: 10px;
-
-/* Classes */
-.navy { 
-    color: navy;
-    font-weight: bold;
-}
-.greyBackground { 
-    background-color: rgba(200,200,200,0.3);
-    padding: 10px;
-    border-radius: 8px;
 }
 
-/* Navigation Styling */
-nav{
-    width: 800px;
-    margin: 0 auto;
-    border-bottom: black 1px solid;
+footer {
+    width: 960px;
+    background-color: paleturquoise; 
+    padding: 20px;
+    margin: 20px auto 0 auto;
+    text-align: center;
 }
-nav ul{
-    padding: 0;
-}
-nav ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 0 30px;
-}
-nav ul li a{
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-weight: 900;
-    color: black;
-}
-nav ul li a:hover{
-    background-color: aliceblue;
-    color: darkblue;
-}
+
+.green { color: green; } 
+.greyBackground { background-color: rgba(240,240,240,0.6); }
